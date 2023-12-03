@@ -1,0 +1,13 @@
+admin, chief admin, departments council, name, region, languages
+
+council:
+    Admins: list of admins
+    chiefAdmin: Admin
+
+
+Admin:
+    departments: list of departments
+    name: string
+    region: string
+    languages: list of languages
+

@@ -1,0 +1,9 @@
+player
+	name
+	score
+	rp
+	mrp
+	deck
+	hand
+	field
+	graveyard

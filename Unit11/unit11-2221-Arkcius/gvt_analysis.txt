@@ -1,0 +1,19 @@
+player
+    deck
+card
+    name
+    resurce
+    faction
+    rarity
+    attack power
+    health
+deck
+    card
+hand
+    card
+
+
+
+shuffle
+draw
+play/attack card
