@@ -1,0 +1,9 @@
+list of errors
+misspelling (the main culprit)
+syntax like forgetting the : at the end of a func
+it worked but the sizes or ratios were off with the turtle like mouth to big
+forgetting to cast as an int or float
+forgetting parathesis for func
+forgetting to put in commas
+forgetting to put all parameters in for a func
+

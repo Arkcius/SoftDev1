@@ -1,0 +1,7 @@
+Ryan Robison
+
+The empty repository would not push or even be detected by git when trying to add it
+
+The new folder was only able to be pushed when there was a file inside of it. I saw online that this is because git pushes the files and not the folders/repositories and for as the amount of questions.txt there are their are now two copys one in the folder and one not in the folder and the git status command shows theirs more to push for the questions doc which is most likely to push its removal. I think this is because you pushed a version of the question doc that was in a different location so it did not update to the previous question doc which is also probably why git still shows more to push
+
+

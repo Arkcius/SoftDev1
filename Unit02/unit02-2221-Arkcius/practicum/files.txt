@@ -1,0 +1,140 @@
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 409599996 293871576 115728420  72% /
+D:                   566518780   2746408 563772372   1% /d
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius (main)
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 ~
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 /d/Profiles
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 /d
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 /
+$ ls
+LICENSE.txt  ReleaseNotes.html  bin/  cmd/  dev/  etc/  git-bash.exe*  git-cmd.exe*  mingw64/  proc/  tmp/  unins001.dat  unins001.exe
+
+rar6741@GOL2620-26 MINGW64 /
+$ ls -la
+total 5068
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 ./
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 ../
+-rw-r--r-- 1 rar6741 1049089   18765 Jul 11 18:51 LICENSE.txt
+-rw-r--r-- 1 rar6741 1049089  223920 Jul 11 18:52 ReleaseNotes.html
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 bin/
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 cmd/
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 dev/
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 etc/
+-rwxr-xr-x 1 rar6741 1049089  137776 Jul 11 18:32 git-bash.exe*
+-rwxr-xr-x 1 rar6741 1049089  137264 Jul 11 18:32 git-cmd.exe*
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 mingw64/
+dr-xr-xr-x 9 rar6741 1049089       0 Aug 29 08:16 proc/
+drwxr-xr-x 1 rar6741 1049089       0 Aug 29 08:15 tmp/
+-rw-r--r-- 1 rar6741 1049089 1255606 Aug  4 18:51 unins001.dat
+-rwxr-xr-x 1 rar6741 1049089 3212176 Aug  4 18:51 unins001.exe*
+-rw-r--r-- 1 rar6741 1049089   24183 Aug  4 18:51 unins001.msg
+drwxr-xr-x 1 rar6741 1049089       0 Aug  4 18:51 usr/
+
+rar6741@GOL2620-26 MINGW64 /
+$ cd /d
+
+rar6741@GOL2620-26 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/   Profiles/  'System Volume Information'/
+
+rar6741@GOL2620-26 MINGW64 /d
+$ cd Profiles
+
+rar6741@GOL2620-26 MINGW64 /d/Profiles
+$ ls
+ Administrator/  'All Users'@   DataIgloo/   Default/  'Default User'@   Public/   ca2925/   eht8132/   rar6741/
+
+rar6741@GOL2620-26 MINGW64 /d/Profiles
+$ cd rar6741
+
+rar6741@GOL2620-26 MINGW64 ~
+$ cd SoftDevI/Unit02/unit02-2221-Arkcius
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius (main)
+$ ls -la
+total 8
+drwxr-xr-x 1 rar6741 1049089    0 Aug 29 08:03 ./
+drwxr-xr-x 1 rar6741 1049089    0 Aug 29 08:03 ../
+drwxr-xr-x 1 rar6741 1049089    0 Aug 29 08:03 .git/
+-rw-r--r-- 1 rar6741 1049089 3084 Aug 29 08:03 mini_practicum_01.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius (main)
+$ mkdir practicum
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius (main)
+$ cd practicum
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ ls -la
+total 0
+drwxr-xr-x 1 rar6741 1049089 0 Aug 29 08:19 ./
+drwxr-xr-x 1 rar6741 1049089 0 Aug 29 08:19 ../
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ vi about_me.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ cat about_me.txt
+Ryan Robison
+11/03/2002
+Ashburn Virginia
+Aviva
+Case Study of Vanitas
+"Can't think of a favorite quote so this is my quote" - Me
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ cp about_me.txt about_me_copy.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ cat about_me_copy.txt
+Ryan Robison
+11/03/2002
+Ashburn Virginia
+Aviva
+Case Study of Vanitas
+"Can't think of a favorite quote so this is my quote" - Me
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ ls -la
+total 2
+drwxr-xr-x 1 rar6741 1049089   0 Aug 29 08:24 ./
+drwxr-xr-x 1 rar6741 1049089   0 Aug 29 08:19 ../
+-rw-r--r-- 1 rar6741 1049089 128 Aug 29 08:23 about_me.txt
+-rw-r--r-- 1 rar6741 1049089 128 Aug 29 08:24 about_me_copy.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ mv about_me.txt ~/SoftDevI/Unit02/unit02-2221-Arkcius/about_me.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ rm about_me_copy_txt
+rm: cannot remove 'about_me_copy_txt': No such file or directory
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ rm about_me_copy.txt
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ ls
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius/practicum (main)
+$ cd ..
+
+rar6741@GOL2620-26 MINGW64 ~/SoftDevI/Unit02/unit02-2221-Arkcius (main)
+$ ls
+about_me.txt  mini_practicum_01.txt  practicum/
